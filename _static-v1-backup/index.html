@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moeden Media Consult — Clarity in a Noisy World</title>
+<meta name="description" content="Moeden Media Consult is a strategic PR, marketing and development communications agency based in Abuja, Nigeria. Clarity in a Noisy World.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--
+  DEV NOTE — Pre-launch checklist:
+  [ ] Replace [insert email] placeholder (search "insert-email@moedenmedia.com") with real contact email
+  [ ] Replace placeholder social links (#) with real LinkedIn, X, Instagram URLs
+  [ ] Confirm "Work With Us" / "Start a Conversation" CTA destination (currently anchors to #contact form on this page)
+  [ ] Confirm the six "Explore [Pillar] →" links — currently in-page anchors that expand each service card
+  [ ] Logo: current mark is a redrawn approximation of the supplied artwork. Swap assets/logo-mark.svg for the
+      client's real vector file (dark/blue variant for direct-on-white use) before go-live.
+-->
+
+<header class="site-header">
+  <div class="container">
+    <a href="#top" class="logo-badge">
+      <span class="logo-badge__icon">
+        <svg class="logo-mark" viewBox="0 0 100 62" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6,52 33,10 46,30 59,10 86,52" />
+          <polyline points="16,52 33,26 46,42 59,26 76,52" />
+        </svg>
+      </span>
+      <span class="logo-badge__text">
+        <strong>MOEDEN</strong>
+        <span>MEDIA CONSULT</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#top">Home</a>
+      <a href="#intent">Approach</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#why">Why Moeden</a>
+      <a href="#sectors">Sectors</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-secondary">Work With Us</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- SECTION 1 — Hero -->
+  <section class="hero" id="top">
+    <div class="container">
+      <h1>Clarity in a Noisy World.</h1>
+      <p class="lede">Important ideas deserve to be understood.</p>
+      <div class="body">
+        <p>Moeden Media Consult helps organisations communicate ideas that are complex, important or difficult to translate — turning them into communication that people can understand, trust and act on.</p>
+        <p>We work with businesses, institutions, development organisations and public-sector actors where communication has to do more than create visibility. It has to create understanding, build credibility and move people towards a meaningful outcome.</p>
+      </div>
+      <div class="actions">
+        <a href="#contact" class="btn btn-primary">Work With Us</a>
+        <a href="#services" class="btn btn-secondary">Explore Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2 — Communication With Intent -->
+  <section id="intent">
+    <div class="container">
+      <p class="pull-quote">Being heard isn't the same as being understood.</p>
+      <div class="section-body">
+        <p>Organisations are constantly communicating. The challenge is making sure the right people understand what is being said — and know why it matters.</p>
+        <p>Moeden brings strategy, media, public engagement, marketing and development communications together to solve that challenge.</p>
+        <p>Whether the task is launching a brand, explaining a policy, shaping public perception, engaging stakeholders or telling a development story, we begin with the purpose behind the communication — not simply the communication itself.</p>
+      </div>
+      <div class="question-block">
+        <p>What needs to be understood?</p>
+        <p>Who needs to understand it?</p>
+        <p>And what should happen next?</p>
+      </div>
+      <div class="section-body">
+        <p>Those questions shape our work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3 — What We Do -->
+  <section id="services">
+    <div class="container">
+      <span class="eyebrow">What We Do</span>
+      <h2 class="section-heading">Six ways we help organisations communicate with purpose.</h2>
+      <div class="section-body">
+        <p>Communication challenges don't all look the same.</p>
+        <p>Sometimes the problem is positioning. Sometimes it is reputation. Sometimes a policy, programme or product is simply too complex to explain clearly. Sometimes the organisation has the right message but isn't reaching the people who need to hear it.</p>
+        <p>Our six service pillars allow us to meet those challenges from strategy through to execution.</p>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+
+        <article class="service-card is-open" id="service-strategic" tabindex="0">
+          <div class="service-card__number">01</div>
+          <h3 class="service-card__title">Strategic Communications</h3>
+          <p class="service-card__hook">Start with the bigger picture.</p>
+          <div class="service-card__detail"><div class="service-card__detail-inner">
+            <p class="service-card__intro">We connect communication to organisational objectives, audience needs and the outcomes that matter.</p>
+            <ul class="service-card__services">
+              <li>Corporate communication strategy</li>
+              <li>Communication audits</li>
+              <li>Stakeholder communication</li>
+              <li>Institutional positioning</li>
+              <li>Reputation management</li>
+              <li>Strategic messaging</li>
+              <li>Communication campaigns</li>
+              <li>Crisis and issues communication</li>
+            </ul>
+            <a href="#contact" class="service-card__explore">Explore Strategic Communications →</a>
+          </div></div>
+          <div class="service-card__toggle-hint">Click to explore</div>
+        </article>
+
+        <article class="service-card" id="service-pr" tabindex="0">
+          <div class="service-card__number">02</div>
+          <h3 class="service-card__title">Public Relations &amp; Media Relations</h3>
+          <p class="service-card__hook">Build credibility. Shape the story.</p>
+          <div class="service-card__detail"><div class="service-card__detail-inner">
+            <p class="service-card__intro">We help organisations develop meaningful relationships with media, stakeholders and the public — and communicate with confidence when attention matters.</p>
+            <ul class="service-card__services">
+              <li>Public relations strategy</li>
+              <li>Media relations and pitching</li>
+              <li>Press releases and media statements</li>
+              <li>Press conferences</li>
+              <li>Interview preparation</li>
+              <li>Thought leadership</li>
+              <li>Executive profiling</li>
+              <li>Reputation management</li>
+              <li>Media monitoring and analysis</li>
+            </ul>
+            <a href="#contact" class="service-card__explore">Explore PR &amp; Media Relations →</a>
+          </div></div>
+          <div class="service-card__toggle-hint">Click to explore</div>
+        </article>
+
+        <article class="service-card" id="service-marketing" tabindex="0">
+          <div class="service-card__number">03</div>
+          <h3 class="service-card__title">Marketing &amp; Brand Communications</h3>
+          <p class="service-card__hook">Make your value clear.</p>
+          <div class="service-card__detail"><div class="service-card__detail-inner">
+            <p class="service-card__intro">We help organisations articulate what they stand for and communicate it consistently across the channels where their audiences pay attention.</p>
+            <ul class="service-card__services">
+              <li>Brand strategy</li>
+              <li>Integrated marketing communications</li>
+              <li>Campaign development</li>
+              <li>Content strategy</li>
+              <li>Digital communications</li>
+              <li>Social media strategy</li>
+              <li>Corporate storytelling</li>
+              <li>Audience engagement</li>
+              <li>Email and digital marketing</li>
+            </ul>
+            <a href="#contact" class="service-card__explore">Explore Marketing &amp; Brand Communications →</a>
+          </div></div>
+          <div class="service-card__toggle-hint">Click to explore</div>
+        </article>
+
+        <article class="service-card" id="service-development" tabindex="0">
+          <div class="service-card__number">04</div>
+          <h3 class="service-card__title">Development &amp; Public Interest Communications</h3>
+          <p class="service-card__hook">Make complex issues easier to understand — and easier to engage with.</p>
+          <div class="service-card__detail"><div class="service-card__detail-inner">
+            <p class="service-card__intro">This is communication for policies, programmes, communities and issues that affect the public. We translate development and social issues into communication that supports understanding, participation, informed decision-making and accountability.</p>
+            <ul class="service-card__services">
+              <li>Governance and public policy communication</li>
+              <li>Behaviour change communication</li>
+              <li>Civic engagement</li>
+              <li>Development storytelling</li>
+              <li>SDG and sustainable development communication</li>
+              <li>Public education</li>
+              <li>Social impact campaigns</li>
+              <li>Community engagement</li>
+              <li>Policy communication</li>
+              <li>NGO and CSO communications</li>
+            </ul>
+            <a href="#contact" class="service-card__explore">Explore Development Communications →</a>
+          </div></div>
+          <div class="service-card__toggle-hint">Click to explore</div>
+        </article>
+
+        <article class="service-card" id="service-events" tabindex="0">
+          <div class="service-card__number">05</div>
+          <h3 class="service-card__title">Events &amp; Experiential Communications</h3>
+          <p class="service-card__hook">Make the event part of a bigger story.</p>
+          <div class="service-card__detail"><div class="service-card__detail-inner">
+            <p class="service-card__intro">An event shouldn't begin when guests arrive or end when they leave. We help organisations build the communication around an event — from positioning and publicity to engagement, coverage and post-event storytelling.</p>
+            <ul class="service-card__services">
+              <li>Event communication strategy</li>
+              <li>Event branding</li>
+              <li>Media and publicity</li>
+              <li>Speaker and stakeholder profiling</li>
+              <li>Sponsorship communications</li>
+              <li>Digital campaigns</li>
+              <li>Live event coverage</li>
+              <li>Post-event communications</li>
+              <li>Impact storytelling</li>
+              <li>Event reports and documentation</li>
+            </ul>
+            <a href="#contact" class="service-card__explore">Explore Events &amp; Experiential Communications →</a>
+          </div></div>
+          <div class="service-card__toggle-hint">Click to explore</div>
+        </article>
+
+        <article class="service-card" id="service-content" tabindex="0">
+          <div class="service-card__number">06</div>
+          <h3 class="service-card__title">Content &amp; Media Production</h3>
+          <p class="service-card__hook">Give the message something people can see, hear and remember.</p>
+          <div class="service-card__detail"><div class="service-card__detail-inner">
+            <p class="service-card__intro">We develop content that carries strategy into the real world — across digital platforms, media and other channels where audiences engage.</p>
+            <ul class="service-card__services">
+              <li>Corporate storytelling</li>
+              <li>Video content</li>
+              <li>Photography</li>
+              <li>Social media content</li>
+              <li>Articles and opinion pieces</li>
+              <li>Interviews</li>
+              <li>Podcasts</li>
+              <li>Campaign creatives</li>
+              <li>Educational content</li>
+              <li>Documentary-style storytelling</li>
+            </ul>
+            <a href="#contact" class="service-card__explore">Explore Content &amp; Media Production →</a>
+          </div></div>
+          <div class="service-card__toggle-hint">Click to explore</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4 — Strategy Before Noise -->
+  <section id="process">
+    <div class="container">
+      <span class="eyebrow">Our Process</span>
+      <h2 class="section-heading">We don't start with the message. We start with the problem.</h2>
+      <div class="section-body">
+        <p>Before deciding what should be said, where it should appear or what it should look like, we ask what the communication actually needs to achieve.</p>
+      </div>
+
+      <div class="process-connector" id="processConnector">
+        <span class="step-label active" data-step="1">Understand</span>
+        <span class="arrow">→</span>
+        <span class="step-label" data-step="2">Clarify</span>
+        <span class="arrow">→</span>
+        <span class="step-label" data-step="3">Strategise</span>
+        <span class="arrow">→</span>
+        <span class="step-label" data-step="4">Engage</span>
+        <span class="arrow">→</span>
+        <span class="step-label" data-step="5">Measure</span>
+      </div>
+
+      <div class="process-steps" id="processSteps">
+        <div class="process-step active" data-step="1">
+          <div class="process-step__num">01</div>
+          <div class="process-step__title">UNDERSTAND</div>
+          <p class="process-step__desc">We examine the organisation, the issue, the audience and the environment surrounding the communication.</p>
+        </div>
+        <div class="process-step" data-step="2">
+          <div class="process-step__num">02</div>
+          <div class="process-step__title">CLARIFY</div>
+          <p class="process-step__desc">We identify what needs to be understood and turn complexity into a message people can grasp.</p>
+        </div>
+        <div class="process-step" data-step="3">
+          <div class="process-step__num">03</div>
+          <div class="process-step__title">STRATEGISE</div>
+          <p class="process-step__desc">We develop an approach aligned with organisational objectives — not simply the latest communication trend.</p>
+        </div>
+        <div class="process-step" data-step="4">
+          <div class="process-step__num">04</div>
+          <div class="process-step__title">ENGAGE</div>
+          <p class="process-step__desc">We connect the message with the audiences and stakeholders who matter to the outcome.</p>
+        </div>
+        <div class="process-step" data-step="5">
+          <div class="process-step__num">05</div>
+          <div class="process-step__title">MEASURE</div>
+          <p class="process-step__desc">We assess performance, learning and impact so that communication becomes more effective over time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5 — Why Moeden? -->
+  <section id="why">
+    <div class="container">
+      <span class="eyebrow">Why Moeden</span>
+      <h2 class="section-heading">We look beyond what you want to say.</h2>
+      <div class="section-body">
+        <p>A communications brief can begin with a simple question: "What should we say?"</p>
+        <p>We ask a few more.</p>
+      </div>
+      <div class="question-block">
+        <p>Why does it matter?</p>
+        <p>Who needs to hear it?</p>
+        <p>What do they already think?</p>
+        <p>What do they need to understand?</p>
+        <p>And what should change after they hear it?</p>
+      </div>
+      <div class="section-body">
+        <p>That way of thinking shapes every assignment we take on.</p>
+      </div>
+
+      <div class="value-row">
+        <div class="value-card">
+          <div class="value-card__title">STRATEGIC THINKING</div>
+          <p class="value-card__desc">We connect communication to the organisation's larger objectives.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__title">AUDIENCE UNDERSTANDING</div>
+          <p class="value-card__desc">We build around people, their needs, perceptions and behaviour — not assumptions.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__title">MEDIA INTELLIGENCE</div>
+          <p class="value-card__desc">We understand how stories move between traditional media, digital platforms and public conversations.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__title">PUBLIC INTEREST PERSPECTIVE</div>
+          <p class="value-card__desc">We consider trust, accountability, inclusion and public value alongside visibility.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-card__title">CREATIVE EXECUTION</div>
+          <p class="value-card__desc">We turn strategy into stories, campaigns, content and experiences that people can engage with.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6 — Built For Organisations Doing Work That Matters -->
+  <section id="sectors">
+    <div class="container">
+      <span class="eyebrow">Who We Work With</span>
+      <h2 class="section-heading">Built for organisations doing work that matters.</h2>
+      <div class="section-body">
+        <p>Moeden works across the public, private and development sectors — particularly where ideas, information or initiatives need to reach real people clearly.</p>
+      </div>
+
+      <div class="sector-grid">
+        <div class="sector-card">
+          <div class="sector-card__title">PUBLIC &amp; DEVELOPMENT</div>
+          <ul>
+            <li>Government institutions and MDAs</li>
+            <li>NGOs and CSOs</li>
+            <li>Development organisations</li>
+            <li>Public-interest initiatives</li>
+          </ul>
+        </div>
+        <div class="sector-card">
+          <div class="sector-card__title">BUSINESS &amp; CORPORATE</div>
+          <ul>
+            <li>Corporate organisations</li>
+            <li>Financial institutions</li>
+            <li>Real estate companies</li>
+            <li>Energy companies</li>
+          </ul>
+        </div>
+        <div class="sector-card">
+          <div class="sector-card__title">INNOVATION &amp; INSTITUTIONS</div>
+          <ul>
+            <li>Startups and technology companies</li>
+            <li>Educational institutions</li>
+            <li>Professional associations</li>
+            <li>Social enterprises</li>
+          </ul>
+        </div>
+        <div class="sector-card">
+          <div class="sector-card__title">EVENTS &amp; ENGAGEMENT</div>
+          <ul>
+            <li>Events and conference organisers</li>
+            <li>Public-facing initiatives</li>
+            <li>Stakeholder-led programmes</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tag-row">
+        <span class="tag-pill">Governance</span>
+        <span class="tag-pill">Development</span>
+        <span class="tag-pill">Business</span>
+        <span class="tag-pill">Innovation</span>
+        <span class="tag-pill">Technology</span>
+        <span class="tag-pill">Sustainability</span>
+        <span class="tag-pill">Public Policy</span>
+        <span class="tag-pill">Social Impact</span>
+        <span class="tag-pill">Civic Engagement</span>
+        <span class="tag-pill">Behaviour Change</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7 — From Complex Ideas To Clear Communication -->
+  <section class="closing">
+    <div class="container">
+      <span class="eyebrow" style="color:#7fb6dc">The Gap We Close</span>
+      <h2 class="section-heading">From complex ideas to clear communication.</h2>
+
+      <div class="closing-lines">
+        <p>A policy can be difficult to understand.</p>
+        <p>A technical product can be difficult to explain.</p>
+        <p>A development programme can be difficult to communicate.</p>
+        <p>A brand can struggle to articulate its value.</p>
+      </div>
+
+      <div class="closing-peak">
+        <p>And sometimes, a good idea doesn't fail because it isn't valuable.</p>
+        <p>It fails because people don't understand it.</p>
+      </div>
+
+      <p class="closing-gap">That's the gap Moeden exists to close.<br>We help organisations make important ideas clearer, more credible and easier for the people who matter to engage with.</p>
+
+      <div class="closing-cta-block" id="contact">
+        <h3>Let's create communication that matters.</h3>
+        <p class="prompt">Have a communication challenge?</p>
+        <p class="desc">Whether you need strategic counsel, a PR campaign, media relations, development communication, brand communication, event communications or support taking an idea from strategy to execution, let's start with the challenge.</p>
+
+        <div class="contact-grid">
+          <form class="contact-form" action="mailto:insert-email@moedenmedia.com" method="post" enctype="text/plain">
+            <div class="field">
+              <label for="cf-name">Name</label>
+              <input type="text" id="cf-name" name="Name" required>
+            </div>
+            <div class="field">
+              <label for="cf-org">Organisation</label>
+              <input type="text" id="cf-org" name="Organisation">
+            </div>
+            <div class="field">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="Email" required>
+            </div>
+            <div class="field">
+              <label for="cf-message">Tell us about the challenge</label>
+              <textarea id="cf-message" name="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Start a Conversation</button>
+            <p class="contact-note">This form currently sends via your email client. Replace with a live form endpoint before go-live.</p>
+          </form>
+
+          <div class="contact-side">
+            <div class="row"><div><strong>Email</strong>[insert email]</div></div>
+            <div class="row"><div><strong>Phone</strong>0803 517 9750</div></div>
+            <div class="row"><div><strong>Location</strong>Abuja, Nigeria</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- SECTION 8 — Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#top" class="logo-badge">
+          <span class="logo-badge__icon">
+            <svg class="logo-mark" viewBox="0 0 100 62" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6,52 33,10 46,30 59,10 86,52" />
+              <polyline points="16,52 33,26 46,42 59,26 76,52" />
+            </svg>
+          </span>
+          <span class="logo-badge__text">
+            <strong>MOEDEN</strong>
+            <span>MEDIA CONSULT</span>
+          </span>
+        </a>
+        <p class="footer-tagline">
+          Strategic PR, Marketing &amp; Development Communications
+          <span class="accent">Clarity in a Noisy World.</span>
+        </p>
+      </div>
+
+      <div class="footer-social">
+        <a href="#" aria-label="LinkedIn" title="LinkedIn (placeholder — add real URL)">in</a>
+        <a href="#" aria-label="X" title="X (placeholder — add real URL)">X</a>
+        <a href="#" aria-label="Instagram" title="Instagram (placeholder — add real URL)">IG</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Moeden Media Consult. All rights reserved.</span>
+      <span>Abuja, Nigeria · 0803 517 9750</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
