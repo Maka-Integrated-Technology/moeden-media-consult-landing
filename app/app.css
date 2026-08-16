@@ -497,9 +497,8 @@ section:first-of-type{ border-top: none; }
 .process-step__desc{
   font-size: 0.88rem;
   color: var(--ink-soft);
-  display:none;
 }
-.process-step.active .process-step__desc{ display:block; color: rgba(255,255,255,0.72); }
+.process-step.active .process-step__desc{ color: rgba(255,255,255,0.72); }
 
 /* ---------- Section 5: Why Moeden ---------- */
 .value-row{
