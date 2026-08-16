@@ -87,14 +87,13 @@ export default function Home() {
               <p className="lede">Important ideas deserve to be understood.</p>
               <div className="body">
                 <p>
-                  Moeden Media Consult helps organisations communicate ideas that are complex,
-                  important or difficult to translate — turning them into communication that people
-                  can understand, trust and act on.
+                  Moeden Media Consult helps organisations turn complicated, high-stakes ideas into
+                  communication people understand, trust and act on.
                 </p>
                 <p>
                   We work with businesses, institutions, development organisations and public-sector
-                  actors where communication has to do more than create visibility. It has to create
-                  understanding, build credibility and move people towards a meaningful outcome.
+                  actors whose communication needs to do more than get noticed. It needs to build
+                  understanding, earn credibility and move people to act.
                 </p>
               </div>
               <div className="actions">
@@ -110,11 +109,11 @@ export default function Home() {
               </div>
               <div className="hero-card hero-card--two">
                 <span className="hero-card__label">Working With</span>
-                <span className="hero-card__value">Governments, NGOs &amp; Corporates</span>
+                <span className="hero-card__value">Public, Private &amp; Development Sectors</span>
               </div>
               <div className="hero-card hero-card--three">
-                <span className="hero-card__label">Based In</span>
-                <span className="hero-card__value">Abuja, Nigeria</span>
+                <span className="hero-card__label">Approach</span>
+                <span className="hero-card__value">Understand → Measure</span>
               </div>
             </div>
           </div>
@@ -128,16 +127,16 @@ export default function Home() {
             <div className="section-body">
               <p>
                 Organisations are constantly communicating. The challenge is making sure the right
-                people understand what is being said — and know why it matters.
+                people understand what is being said, and know why it matters.
               </p>
               <p>
                 Moeden brings strategy, media, public engagement, marketing and development
                 communications together to solve that challenge.
               </p>
               <p>
-                Whether the task is launching a brand, explaining a policy, shaping public
-                perception, engaging stakeholders or telling a development story, we begin with the
-                purpose behind the communication — not simply the communication itself.
+                Whether we're launching a brand, explaining a policy, shaping public perception or
+                telling a development story, we start with why the communication needs to exist,
+                not just what it should say.
               </p>
             </div>
             <div className="question-block">
@@ -161,12 +160,11 @@ export default function Home() {
             <div className="section-body">
               <p>Communication challenges don't all look the same.</p>
               <p>
-                Sometimes the problem is positioning. Sometimes it is reputation. Sometimes a
-                policy, programme or product is simply too complex to explain clearly. Sometimes
-                the organisation has the right message but isn't reaching the people who need to
-                hear it.
+                Sometimes it's positioning. Sometimes it's reputation. Other times, a policy or
+                product is just too complex to explain clearly. Or the message is right but isn't
+                reaching the people who need to hear it.
               </p>
-              <p>Our six service pillars allow us to meet those challenges from strategy through to execution.</p>
+              <p>Our six service pillars take those challenges from strategy through to execution.</p>
             </div>
 
             <div className="services-grid">
@@ -224,7 +222,7 @@ export default function Home() {
             <div className="section-body">
               <p>
                 Before deciding what should be said, where it should appear or what it should look
-                like, we ask what the communication actually needs to achieve.
+                like, we ask what the communication needs to achieve.
               </p>
             </div>
 
@@ -294,11 +292,11 @@ export default function Home() {
         <section id="sectors">
           <div className="container">
             <SectionMarker number="06" label="Who We Work With" />
-            <h2 className="section-heading">Built for organisations doing work that matters.</h2>
+            <h2 className="section-heading">Built for organisations doing serious, high-stakes work.</h2>
             <div className="section-body">
               <p>
-                Moeden works across the public, private and development sectors — particularly
-                where ideas, information or initiatives need to reach real people clearly.
+                Moeden works across the public, private and development sectors, wherever ideas or
+                initiatives need to reach real people and actually land.
               </p>
             </div>
 
@@ -345,16 +343,16 @@ export default function Home() {
               That's the gap Moeden exists to close.
               <br />
               We help organisations make important ideas clearer, more credible and easier for the
-              people who matter to engage with.
+              right people to engage with.
             </p>
 
             <div className="closing-cta-block" id="contact">
-              <h3>Let's create communication that matters.</h3>
+              <h3>Let's make your next idea impossible to misunderstand.</h3>
               <p className="prompt">Have a communication challenge?</p>
               <p className="desc">
-                Whether you need strategic counsel, a PR campaign, media relations, development
-                communication, brand communication, event communications or support taking an idea
-                from strategy to execution, let's start with the challenge.
+                Whether it's strategic counsel, PR and media relations, brand or development
+                communication, event communications, or getting an idea from strategy to
+                execution, let's start with the challenge, not the service.
               </p>
 
               <div className="contact-grid">
@@ -411,9 +409,9 @@ export default function Home() {
             </div>
 
             <div className="footer-social">
-              <a href="#" aria-label="LinkedIn" title="LinkedIn (placeholder — add real URL)">in</a>
-              <a href="#" aria-label="X" title="X (placeholder — add real URL)">X</a>
-              <a href="#" aria-label="Instagram" title="Instagram (placeholder — add real URL)">IG</a>
+              <a href="#" aria-label="LinkedIn" title="LinkedIn (placeholder, add real URL)">in</a>
+              <a href="#" aria-label="X" title="X (placeholder, add real URL)">X</a>
+              <a href="#" aria-label="Instagram" title="Instagram (placeholder, add real URL)">IG</a>
             </div>
           </div>
 

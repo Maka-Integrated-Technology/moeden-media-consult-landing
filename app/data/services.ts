@@ -15,7 +15,7 @@ export const services: Service[] = [
     title: "Strategic Communications",
     hook: "Start with the bigger picture.",
     intro:
-      "We connect communication to organisational objectives, audience needs and the outcomes that matter.",
+      "We connect communication to organisational objectives, audience needs and the outcomes it's meant to drive.",
     items: [
       "Corporate communication strategy",
       "Communication audits",
@@ -34,7 +34,7 @@ export const services: Service[] = [
     title: "Public Relations & Media Relations",
     hook: "Build credibility. Shape the story.",
     intro:
-      "We help organisations develop meaningful relationships with media, stakeholders and the public — and communicate with confidence when attention matters.",
+      "We help organisations build real relationships with media, stakeholders and the public, and communicate with confidence when it counts.",
     items: [
       "Public relations strategy",
       "Media relations and pitching",
@@ -72,7 +72,7 @@ export const services: Service[] = [
     id: "service-development",
     number: "04",
     title: "Development & Public Interest Communications",
-    hook: "Make complex issues easier to understand — and easier to engage with.",
+    hook: "Make complex issues easier to understand and easier to engage with.",
     intro:
       "This is communication for policies, programmes, communities and issues that affect the public. We translate development and social issues into communication that supports understanding, participation, informed decision-making and accountability.",
     items: [
@@ -95,7 +95,7 @@ export const services: Service[] = [
     title: "Events & Experiential Communications",
     hook: "Make the event part of a bigger story.",
     intro:
-      "An event shouldn't begin when guests arrive or end when they leave. We help organisations build the communication around an event — from positioning and publicity to engagement, coverage and post-event storytelling.",
+      "An event shouldn't begin when guests arrive or end when they leave. We help organisations build the communication around an event: from positioning and publicity to engagement, coverage and post-event storytelling.",
     items: [
       "Event communication strategy",
       "Event branding",
@@ -116,7 +116,7 @@ export const services: Service[] = [
     title: "Content & Media Production",
     hook: "Give the message something people can see, hear and remember.",
     intro:
-      "We develop content that carries strategy into the real world — across digital platforms, media and other channels where audiences engage.",
+      "We develop content that carries strategy into the real world, across digital platforms, media and other channels where audiences engage.",
     items: [
       "Corporate storytelling",
       "Video content",
@@ -157,19 +157,19 @@ export const processSteps: ProcessStep[] = [
     step: "3",
     label: "Strategise",
     title: "STRATEGISE",
-    desc: "We develop an approach aligned with organisational objectives — not simply the latest communication trend.",
+    desc: "We build an approach rooted in organisational objectives, not whatever communication trend is loudest this quarter.",
   },
   {
     step: "4",
     label: "Engage",
     title: "ENGAGE",
-    desc: "We connect the message with the audiences and stakeholders who matter to the outcome.",
+    desc: "We put the message in front of the audiences and stakeholders the outcome actually depends on.",
   },
   {
     step: "5",
     label: "Measure",
     title: "MEASURE",
-    desc: "We assess performance, learning and impact so that communication becomes more effective over time.",
+    desc: "We track performance and impact, then feed what we learn back into the next round of communication.",
   },
 ];
 
@@ -180,7 +180,7 @@ export const values = [
   },
   {
     title: "AUDIENCE UNDERSTANDING",
-    desc: "We build around people, their needs, perceptions and behaviour — not assumptions.",
+    desc: "We build around people, their needs, perceptions and behaviour, not guesswork.",
   },
   {
     title: "MEDIA INTELLIGENCE",
