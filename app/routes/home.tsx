@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { Route } from "./+types/home";
 import { LogoBadge } from "~/components/LogoMark";
+import { SectionMarker } from "~/components/SectionMarker";
 import { services, processSteps, values, sectors, tags } from "~/data/services";
 
 export function meta({}: Route.MetaArgs) {
@@ -60,7 +61,6 @@ export default function Home() {
             <a href="#process" onClick={closeNav}>Process</a>
             <a href="#why" onClick={closeNav}>Why Moeden</a>
             <a href="#sectors" onClick={closeNav}>Sectors</a>
-            <a href="#contact" onClick={closeNav}>Contact</a>
           </nav>
 
           <div className="nav-cta">
@@ -81,23 +81,41 @@ export default function Home() {
         {/* SECTION 1 — Hero */}
         <section className="hero" id="top">
           <div className="container">
-            <h1>Clarity in a Noisy World.</h1>
-            <p className="lede">Important ideas deserve to be understood.</p>
-            <div className="body">
-              <p>
-                Moeden Media Consult helps organisations communicate ideas that are complex,
-                important or difficult to translate — turning them into communication that people
-                can understand, trust and act on.
-              </p>
-              <p>
-                We work with businesses, institutions, development organisations and public-sector
-                actors where communication has to do more than create visibility. It has to create
-                understanding, build credibility and move people towards a meaningful outcome.
-              </p>
+            <div className="hero-copy">
+              <SectionMarker number="01" label="Home" />
+              <h1>Clarity in a Noisy World.</h1>
+              <p className="lede">Important ideas deserve to be understood.</p>
+              <div className="body">
+                <p>
+                  Moeden Media Consult helps organisations communicate ideas that are complex,
+                  important or difficult to translate — turning them into communication that people
+                  can understand, trust and act on.
+                </p>
+                <p>
+                  We work with businesses, institutions, development organisations and public-sector
+                  actors where communication has to do more than create visibility. It has to create
+                  understanding, build credibility and move people towards a meaningful outcome.
+                </p>
+              </div>
+              <div className="actions">
+                <a href="#contact" className="btn btn-primary">Work With Us</a>
+                <a href="#services" className="btn btn-secondary">Explore Our Services</a>
+              </div>
             </div>
-            <div className="actions">
-              <a href="#contact" className="btn btn-primary">Work With Us</a>
-              <a href="#services" className="btn btn-secondary">Explore Our Services</a>
+
+            <div className="hero-visual" aria-hidden="true">
+              <div className="hero-card hero-card--one">
+                <span className="hero-card__label">Approach</span>
+                <span className="hero-card__value">5-Step Process</span>
+              </div>
+              <div className="hero-card hero-card--two">
+                <span className="hero-card__label">What We Do</span>
+                <span className="hero-card__value">6 Pillars</span>
+              </div>
+              <div className="hero-card hero-card--three">
+                <span className="hero-card__label">Based In</span>
+                <span className="hero-card__value">Abuja, Nigeria</span>
+              </div>
             </div>
           </div>
         </section>
@@ -105,6 +123,7 @@ export default function Home() {
         {/* SECTION 2 — Communication With Intent */}
         <section id="intent">
           <div className="container">
+            <SectionMarker number="02" label="Approach" />
             <p className="pull-quote">Being heard isn't the same as being understood.</p>
             <div className="section-body">
               <p>
@@ -135,7 +154,7 @@ export default function Home() {
         {/* SECTION 3 — What We Do */}
         <section id="services">
           <div className="container">
-            <span className="eyebrow">What We Do</span>
+            <SectionMarker number="03" label="What We Do" />
             <h2 className="section-heading">
               Six ways we help organisations communicate with purpose.
             </h2>
@@ -198,7 +217,7 @@ export default function Home() {
         {/* SECTION 4 — Strategy Before Noise */}
         <section id="process">
           <div className="container">
-            <span className="eyebrow">Our Process</span>
+            <SectionMarker number="04" label="Our Process" />
             <h2 className="section-heading">
               We don't start with the message. We start with the problem.
             </h2>
@@ -243,7 +262,7 @@ export default function Home() {
         {/* SECTION 5 — Why Moeden? */}
         <section id="why">
           <div className="container">
-            <span className="eyebrow">Why Moeden</span>
+            <SectionMarker number="05" label="Why Moeden" />
             <h2 className="section-heading">We look beyond what you want to say.</h2>
             <div className="section-body">
               <p>A communications brief can begin with a simple question: "What should we say?"</p>
@@ -261,8 +280,8 @@ export default function Home() {
             </div>
 
             <div className="value-row">
-              {values.map((v) => (
-                <div className="value-card" key={v.title}>
+              {values.map((v, i) => (
+                <div className={`value-card${i === 2 ? " value-card--dark" : ""}`} key={v.title}>
                   <div className="value-card__title">{v.title}</div>
                   <p className="value-card__desc">{v.desc}</p>
                 </div>
@@ -274,7 +293,7 @@ export default function Home() {
         {/* SECTION 6 — Built For Organisations Doing Work That Matters */}
         <section id="sectors">
           <div className="container">
-            <span className="eyebrow">Who We Work With</span>
+            <SectionMarker number="06" label="Who We Work With" />
             <h2 className="section-heading">Built for organisations doing work that matters.</h2>
             <div className="section-body">
               <p>
@@ -307,7 +326,7 @@ export default function Home() {
         {/* SECTION 7 — From Complex Ideas To Clear Communication */}
         <section className="closing">
           <div className="container">
-            <span className="eyebrow" style={{ color: "#7fb6dc" }}>The Gap We Close</span>
+            <SectionMarker number="07" label="The Gap We Close" />
             <h2 className="section-heading">From complex ideas to clear communication.</h2>
 
             <div className="closing-lines">
