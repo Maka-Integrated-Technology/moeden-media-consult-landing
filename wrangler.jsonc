@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "moeden-media-consult",
+  "compatibility_date": "2026-08-16",
+  "assets": {
+    "directory": "./build/client",
+    "not_found_handling": "none"
+  }
+}
