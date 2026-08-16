@@ -105,12 +105,12 @@ export default function Home() {
 
             <div className="hero-visual" aria-hidden="true">
               <div className="hero-card hero-card--one">
-                <span className="hero-card__label">Approach</span>
-                <span className="hero-card__value">5-Step Process</span>
+                <span className="hero-card__label">What We Do</span>
+                <span className="hero-card__value">PR, Marketing &amp; Development Comms</span>
               </div>
               <div className="hero-card hero-card--two">
-                <span className="hero-card__label">What We Do</span>
-                <span className="hero-card__value">6 Pillars</span>
+                <span className="hero-card__label">Working With</span>
+                <span className="hero-card__value">Governments, NGOs &amp; Corporates</span>
               </div>
               <div className="hero-card hero-card--three">
                 <span className="hero-card__label">Based In</span>

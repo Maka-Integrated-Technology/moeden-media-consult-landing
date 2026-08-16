@@ -289,15 +289,15 @@ section:first-of-type{ border-top: none; }
   position:absolute;
   background: #fff;
   border-radius: var(--radius);
-  padding: 20px 22px;
+  padding: 18px 20px;
   box-shadow: var(--shadow-lg);
   display:flex;
   flex-direction:column;
-  gap: 4px;
-  width: 190px;
+  gap: 6px;
+  width: 210px;
 }
 .hero-card__label{
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -305,15 +305,16 @@ section:first-of-type{ border-top: none; }
 }
 .hero-card__value{
   font-family: var(--font-display);
-  font-size: 1.3rem;
+  font-size: 1.05rem;
+  line-height: 1.25;
   color: var(--ink);
   font-weight: 600;
 }
-.hero-card--one{ top: 6%; left: 2%; transform: rotate(-4deg); }
-.hero-card--two{ top: 40%; right: -2%; transform: rotate(3deg); background: var(--ink); z-index: 2; }
+.hero-card--one{ top: 4%; left: 0; transform: rotate(-4deg); }
+.hero-card--two{ top: 42%; right: -4%; transform: rotate(3deg); background: var(--ink); z-index: 2; }
 .hero-card--two .hero-card__label{ color: rgba(255,255,255,0.55); }
 .hero-card--two .hero-card__value{ color: #fff; }
-.hero-card--three{ bottom: 6%; left: 16%; transform: rotate(2deg); }
+.hero-card--three{ bottom: 4%; left: 14%; transform: rotate(2deg); }
 
 /* ---------- Section 2: Communication with Intent ---------- */
 .pull-quote{
