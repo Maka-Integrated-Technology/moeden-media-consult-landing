@@ -42,8 +42,7 @@ export default function Home() {
     <>
       {/*
         DEV NOTE — Pre-launch checklist:
-        [ ] Replace "insert-email@moedenmedia.com" with the real contact email
-        [ ] Replace placeholder social links (#) with real LinkedIn, X, Instagram URLs
+        [ ] Replace placeholder LinkedIn URL (#) with the real LinkedIn URL — X and Instagram are live
         [ ] Confirm "Work With Us" / "Start a Conversation" CTA destination (currently anchors to #contact form)
         [ ] Confirm the six "Explore [Pillar] →" links — currently in-page anchors that expand each service card
         [ ] Logo: current mark is a redrawn approximation of the supplied artwork — swap in the client's real
@@ -358,7 +357,7 @@ export default function Home() {
               <div className="contact-grid">
                 <form
                   className="contact-form"
-                  action="mailto:insert-email@moedenmedia.com"
+                  action="mailto:Info@moedenmediaconsult.com"
                   method="post"
                   encType="text/plain"
                 >
@@ -386,7 +385,7 @@ export default function Home() {
                 </form>
 
                 <div className="contact-side">
-                  <div className="row"><div><strong>Email</strong>[insert email]</div></div>
+                  <div className="row"><div><strong>Email</strong><a href="mailto:Info@moedenmediaconsult.com">Info@moedenmediaconsult.com</a></div></div>
                   <div className="row"><div><strong>Phone</strong>0803 517 9750</div></div>
                   <div className="row"><div><strong>Location</strong>Abuja, Nigeria</div></div>
                 </div>
@@ -410,8 +409,8 @@ export default function Home() {
 
             <div className="footer-social">
               <a href="#" aria-label="LinkedIn" title="LinkedIn (placeholder, add real URL)">in</a>
-              <a href="#" aria-label="X" title="X (placeholder, add real URL)">X</a>
-              <a href="#" aria-label="Instagram" title="Instagram (placeholder, add real URL)">IG</a>
+              <a href="https://x.com/MoedenMediaC" aria-label="X" target="_blank" rel="noopener noreferrer">X</a>
+              <a href="https://www.instagram.com/moedenmediaconsult?igsh=amE2MDVmZ2psMnk4&igsi=amE2MDVmZ2psMnk4" aria-label="Instagram" target="_blank" rel="noopener noreferrer">IG</a>
             </div>
           </div>
 
